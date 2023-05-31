@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    // height: auto;
+    // background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+
+    .top__header{
+        height:60px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+}

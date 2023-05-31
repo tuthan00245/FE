@@ -1,0 +1,113 @@
+section{
+    padding: 100px 0 80px ;
+    width: 100%;
+    
+    .container{
+            background-color: white;
+            padding-left: 30px;
+            padding-right: 30px;
+
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+
+            max-width: 1560px;
+            table{
+            border-collapse: collapse;
+            display: inline-block;
+            margin-bottom: 60px;
+            tbody{
+                tr{
+                    td{
+                        h2{
+                            font-family: Oswald;
+                            font-weight: 500;
+                            text-transform: uppercase;
+                            font-size: 40px;
+                            color: #000;
+                            line-height: 47px;
+                            margin: 0;
+                            white-space: normal;
+                        }
+                        div{
+                            border-bottom: 1px solid #6c3;
+                            height: 36px;
+                            width: auto;
+                            position: relative;
+                            margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        .card__deck {
+                @media (min-width: 576px){
+                flex-flow: row wrap;
+                margin-right: -15px;
+                margin-left: -15px;
+            }
+            display: flex;
+            .row{
+                width: 100%;
+                margin: 0;
+
+
+                display: flex;
+                flex-wrap: wrap;
+                
+                padding-right: 15px;
+                padding-left: 15px;
+
+                .vehicleContainer{
+                    text-align: center;
+                    padding-bottom: 60px;
+                    flex: 0 0 33.33333%;
+                    max-width: 33.33333%;
+
+                    .headFive{
+                        font-family: Oswald;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        color: #000;
+                        line-height: 20px;
+                        margin: 0;
+                    }
+                    .headThree{
+                        font-family: Oswald;
+                        font-weight: 500;
+                        text-transform: initial;
+                        font-size: 32px;
+                        color: #000;
+                        line-height: 37px;
+                        margin: 0;
+                        .sup{
+                            font-size: 10px;
+                            margin-top: -7px;
+                            vertical-align: text-top;
+                            display: inline;
+                            position: relative;
+                            top: -0.1em;
+                        }
+                    }
+                    .greenSpacer{
+                        height: 5px;
+                        width: 30px;
+                        background: #6c3;
+                        margin: 10px auto;
+                    }
+                    .pTwo{
+                        font-family: Fira Sans;
+                        font-weight: 400;
+                        font-size: 13px;
+                        color: #76767c;
+                        line-height: 20px;
+                        margin: 0;
+                    }
+                }
+            }    
+                        
+            
+        }
+    }
+}

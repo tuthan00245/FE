@@ -1,0 +1,80 @@
+.container__fortop{
+    width: 100%;
+    max-width: inherit;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .navbar__brand {
+        
+    }
+
+    .rightbar{
+        .list__inline{
+            list-style: none;
+            .list__inline-item{
+                display: inline-block;
+
+                a{
+                    display: flex;
+                    align-items: center;
+                    border-right: 1px solid #5a5a60;
+                    margin-right: 5px;
+                    padding: 0 10px 0 0;
+                    white-space: nowrap;
+
+                    .item{
+                        font-family: Oswald;
+                        color: #76767c;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                        font-size: 13px;
+                        line-height: 17px;
+                        margin: 0 0 0 5px;
+                    }
+                }
+                .group {
+                    display: flex;
+                    line-height: 28px;
+                    align-items: center;
+                    position: relative;
+                    max-width: 190px;
+                  }
+                  
+                  .input {
+                    height: 40px;
+                    line-height: 28px;
+                    // padding: 0 1rem;
+                    width: 100%;
+                    padding-left: 2.5rem;
+                    outline: none;
+                    background: linear-gradient(180deg,     rgb(56, 56, 56) 0%, rgb(36, 36, 36)   66%, rgb(41, 41, 41) 100%);
+                    color: #fff;
+                    transition: .3s ease;
+                    border: 2px solid;
+                    border-image: conic-gradient( #00F260, #0575E6,#64f38c) 1;
+                  }
+                  
+                  .input::placeholder {
+                    color: #fff;
+                  }
+                  
+                  .input:focus::placeholder {
+                    color: #999;
+                  }
+                  
+                  .icon {
+                    position: absolute;
+                    left: 1rem;
+                    fill: #fff;
+                    width: 1rem;
+                    height: 1rem;
+                  }
+                  
+                    
+            }
+        }
+    }
+}

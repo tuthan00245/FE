@@ -1,0 +1,416 @@
+.cart{
+    background-color: #f1f1f1;
+    .cart__container{
+        max-width: 1560px;
+        table{
+            border-collapse: collapse;
+            display: inline-block;
+            margin-bottom: 60px;
+            tbody{
+                tr{
+                    td{
+                        h2{
+                            font-family: Oswald;
+                            font-weight: 500;
+                            text-transform: uppercase;
+                            font-size: 40px;
+                            color: #000;
+                            line-height: 47px;
+                            margin: 0;
+                            white-space: normal;
+                        }
+                        div{
+                            border-bottom: 1px solid #6c3;
+                            height: 36px;
+                            width: auto;
+                            position: relative;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            .col-md-8{
+                flex: 0 0 66.66667%;
+                max-width: 66.66667%;
+                .itembox{
+                    width: 95%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-right: -15px;
+                    margin-left: -15px;
+                    background: #fff;
+                    margin-bottom: 25px;
+                    padding: 20px;
+                    box-shadow: 0 0 10px 0 rgba(71,71,71,.2);
+                    .imgPad{
+                        padding-left: 0;
+                        flex: 0 0 33.33333%;
+                        max-width: 33.33333%;
+                        a{
+                            .left{
+
+                            }
+                        }
+                    }
+                    .col{
+                        flex: 0 0 66.66667%;
+                        max-width: 66.66667%;
+                        a{
+                            color: #007bff;
+                            text-decoration: none;
+                            background-color: transparent;
+                            .headFour{
+                                font-family: Oswald;
+                                font-weight: 500;
+                                text-transform: uppercase;
+                                font-size: 25px;
+                                color: #000;
+                                line-height: 30px;
+                                margin: 0;
+                                .sup{
+                                    font-size: 10px;
+                                    margin-top: -6px;
+                                    vertical-align: text-top;
+                                    display: inline;
+                                    position: relative;
+                                    top: -0.1em;
+                                }
+                            }
+                        }
+                        .pOne{
+                            font-family: Fira Sans;
+                            font-weight: 400;
+                            font-size: 16px;
+                            color: #000;
+                            line-height: 24px;
+                            margin: 0 0 40px 0;
+                        }
+                        div{
+                            .row{
+                                display: flex;
+                                flex-wrap: wrap;
+                                margin-right: -15px;
+                                margin-left: -15px;
+                                .col-lg-7{
+                                    flex: 0 0 58.33333%;
+                                    max-width: 58.33333%;
+                                    .quantityContainer{
+                                        .list-inline-item{
+                                            display: inline-block;
+                                            &:not(last-child){
+                                                margin-right: 0.5rem;
+                                            }
+                                            .form-group{
+                                                margin-bottom: 1rem;
+                                                .headSix{
+                                                    font-family: Oswald;
+                                                    font-weight: 500;
+                                                    text-transform: uppercase;
+                                                    font-size: 13px;
+                                                    color: #000;
+                                                    line-height: 17px;
+                                                    margin: 0;
+                                                }
+                                                .form-control{
+                                                    display: block;
+                                                    width: 100%;
+                                                    height: calc(1.5em + 0.75rem + 2px);
+                                                    padding: 0.375rem 0.75rem;
+                                                    background-color: #fff;
+                                                    background-clip: padding-box;
+                                                    border: 1px solid #ced4da;
+                                                    border-radius: 0.25rem;
+                                                    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+                                                    font-family: Oswald;
+                                                    font-weight: 500;
+                                                    text-transform: uppercase;
+                                                    font-size: 16px;
+                                                    color: #000;
+                                                    line-height: 20px;
+                                                    margin: 0;
+                                                }
+                                                .blackbtn{
+                                                    font-family: Oswald;
+                                                    background: #000;
+                                                    padding: 7px 15px;
+                                                    color: #fff!important;
+                                                    position: relative;
+                                                    display: inline-block;
+                                                    border: none;
+                                                    text-align: center;
+                                                    font-weight: 500;
+                                                    text-transform: uppercase;
+                                                    line-height: 1.5rem;
+                                                }
+                                            }
+                                            & input{
+                                                max-width: 280px;
+
+                                                overflow: visible;
+
+                                                margin: 0;
+                                                font-family: inherit;
+                                                font-size: inherit;
+                                                line-height: inherit;
+
+                                                color: inherit;
+                                                font: inherit;
+                                            }
+                                        }
+                                    }
+                                }
+                                .col-lg-5{
+                                    flex: 0 0 41.66667%;
+                                    max-width: 41.66667%;
+                                    .list-inline-item{
+                                        display: inline-block;
+                                        float:left;
+                                        .headTwo{
+                                            font-family: Oswald;
+                                            font-weight: 500;
+                                            text-transform: uppercase;
+                                            font-size: 40px;
+                                            color: #000;
+                                            line-height: 47px;
+                                            margin: 15px 0 0 0 ;
+                                            text-align: left;
+                                            
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .list-inline{
+                            padding-left: 0;
+                            list-style: none;    
+                            margin-top: 0;
+                            margin-bottom: 1rem;
+                            width: 100%;
+                            text-align: right;
+                            .list-inline-item{
+                                display: inline-block;
+                                text-align: -webkit-match-parent;
+                                .card-button{
+                                    font-family: Oswald;
+                                    font-weight: 500;    
+                                    font-size: 13px;         
+                                    line-height: 17px;      
+                                    text-transform: inherit;
+                                    margin: 20px 0 0 0;
+                                    padding-left: 10px;    
+                                    color: #76767c;
+                                    display: inline-block;    
+                                    background-color: transparent;
+                                    &:first-child{
+                                        border: 0;
+                                    }
+                                    border: none;   
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+            .col-md-4{
+                flex: 0 0 33.33333%;
+                max-width: 33.33333%;
+                .disbox{
+                    background: #e5e5e9;
+                    padding: 20px 15px;
+                    width: 95%;   
+                    @supports (position: sticky){
+                        position: sticky;
+                        top: 0;
+                        z-index: 1020;
+
+                    } 
+                    .headFour{
+                        font-family: Oswald;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                        font-size: 25px;
+                        color: #000;
+                        line-height: 30px;
+                        display: block !important;    
+                        padding-bottom: 20px;
+                        border-bottom: 1px solid #6c3;
+                        margin: 0 0 20px;
+                    }
+                    .headFive{
+                        font-family: Oswald;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        color: #000;
+                        line-height: 20px;
+                        margin: 0;
+
+                        margin-bottom: 0.5rem !important;
+                    }
+                    .form-inline{
+                        display: flex;
+                        flex-flow: row wrap;
+                        align-items: center;
+                        margin: 5px 0 10px 0;
+                        .w-100{
+                            width: 100% !important;
+                            min-width: 0;
+                            padding: 0;
+                            margin: 0;
+                            border: 0;
+                            .sr-only{
+                                display: block;
+                                max-width: 100%;
+                                font-size: 1.5rem;
+                                line-height: inherit;
+                                color: inherit;
+                                border: 0;
+                                clip: rect(0 0 0 0);
+                                height: 1px;
+                                margin: -1px;
+                                overflow: hidden;
+                                padding: 0;
+                                position: absolute;
+                                width: 1px;
+                            }
+                            .mb-4{
+                                display: inline-block;
+                                vertical-align: middle;
+                                margin-right: 5px;
+                                margin-bottom: 1.5rem !important;
+                                border-color: #202021;  
+                                max-width: 280px;
+                            }
+                            .blackBtn{
+                                
+                                display: inline-block;
+                                vertical-align: middle;    
+                                margin-right: 5px;
+                                border-color: #202021;    
+                                margin-bottom: 1.5rem !important;
+
+                                font-family: Oswald;
+                                background: #000;
+                                padding: 7px 15px;
+                                color: #fff!important;
+                                position: relative;
+                                // display: inline-block;
+                                border: none;
+                                text-align: center;
+                                font-weight: 500;
+                                text-transform: uppercase;
+                                line-height: 1.5rem;
+                            }
+                        }
+
+                    }
+                    .clearfix{
+                        .float-left{
+                            float: left !important;
+                            .headFive{
+                                font-family: Oswald;
+                                font-weight: 500;
+                                text-transform: uppercase;
+                                font-size: 16px;
+                                color: #000;
+                                line-height: 20px;
+                                margin: 0 0 5px 0;   
+                                span{
+                                    color: #76767c;
+                                }
+                            }
+                            .pTwo{
+                                font-family: Fira Sans;
+                                font-weight: 400;
+                                font-size: 13px;
+                                color: #000;
+                                line-height: 20px;
+                                margin: 0;
+                            }
+                        }
+                        .float-right{
+                            float: right !important;
+                            .headFour{
+                                font-family: Oswald;
+                                font-weight: 500;
+                                text-transform: uppercase;
+                                font-size: 25px;
+                                color: #000;
+                                line-height: 30px;
+                                margin: 0;
+                            }
+                        }
+                    }
+                    .blackBtn{
+                        font-family: Oswald;
+                        background: #000;
+                        padding: 7px 15px;
+                        color: #fff!important;
+                        position: relative;
+                        display: inline-block;
+                        border: none;
+                        text-align: center;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                        line-height: 1.5rem;
+                        text-decoration: none;
+                        width: 100%;
+                        .mt-4{
+                            margin-top: 1.5rem !important;
+                        }
+                        .mx-auto{
+                            margin-right: auto !important;
+                            margin-left: auto !important;
+                            span{
+                                width: 0;
+                                height: 0;
+                                border-style: solid;
+                                border-width: 3.5px 0 3.5px 4px;
+                                border-color: transparent transparent transparent #6c3;
+                                margin: 8px 10px 0 0;
+                                display: inline-block;
+                                vertical-align: top;
+                            }
+                        }
+                    }
+                    .list-inline{
+                        margin-bottom: 1rem;
+                        padding-left: 0;
+                        list-style: none;
+                        margin-top: 1rem !important;
+                        .mt-3{
+                        }
+                        .list-inline-item{
+                            display: inline-block;
+                            text-align: -webkit-match-parent;
+                            a{
+                                text-decoration: underline;
+                                color: inherit;
+                                background-color: transparent;
+                                .headSix{
+                                    font-family: Oswald;
+                                    font-weight: 500;
+                                    text-transform: uppercase;
+                                    font-size: 13px;
+                                    color: #000;
+                                    line-height: 17px;
+                                    margin: 0;
+                                }
+                            }
+                            &:not(:last-child){
+                                margin-right: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
